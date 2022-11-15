@@ -78,6 +78,157 @@ Begin VB.Form mkpoen05C
                Italic          =   0   'False
                Strikethrough   =   0   'False
             EndProperty
+            Begin FPSpreadADO.fpSpread fpSpread1 
+               Height          =   495
+               Left            =   6960
+               TabIndex        =   112
+               Top             =   360
+               Width           =   975
+               _Version        =   458752
+               _ExtentX        =   1720
+               _ExtentY        =   873
+               _StockProps     =   64
+               BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+                  Name            =   "MS Sans Serif"
+                  Size            =   8.25
+                  Charset         =   0
+                  Weight          =   400
+                  Underline       =   0   'False
+                  Italic          =   0   'False
+                  Strikethrough   =   0   'False
+               EndProperty
+               SpreadDesigner  =   "mkpoen05C.frx":0038
+            End
+            Begin XLibrary_XButton.XButton XButton1 
+               Height          =   615
+               Left            =   5520
+               TabIndex        =   111
+               Top             =   360
+               Width           =   1095
+               _ExtentX        =   1931
+               _ExtentY        =   1085
+               BackColor1      =   12632256
+               BackColor2      =   16777215
+               BackColorEx     =   14737632
+               BackGradientStyle=   2
+               BackStyle       =   4
+               BevelHeight     =   5
+               BackGradientExPercent=   80
+               BackGlassColorStyle=   1
+               BackGradientAutoValue=   40
+               BackGlassAutoValue=   70
+               BackLightShadowShadowValue=   -30
+               BackLightShadowLightValue=   30
+               BorderStyle     =   1
+               BorderWidth     =   1
+               BorderColor     =   8421504
+               EnabledColor    =   6579300
+               MaskColor       =   13828096
+               BeginProperty TextFont {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+                  Name            =   "Arial"
+                  Size            =   9
+                  Charset         =   0
+                  Weight          =   700
+                  Underline       =   0   'False
+                  Italic          =   0   'False
+                  Strikethrough   =   0   'False
+               EndProperty
+               Text            =   "XButton 2"
+               TextWidthPos    =   2
+               TextHeightPos   =   2
+               TextWidthMargin =   5
+               TextHeightMargin=   5
+               IconPosition    =   2
+               IconAndTextMargin=   0
+               IconMaskColor   =   13828096
+               MouseOverMargin =   2
+               MouseOverEffectAutoValue=   -20
+               MouseDownBorderEffectValue=   -40
+               MouseDownDefaultValue=   20
+               FocusDefaultMargin=   3
+               FocusColor1     =   16777152
+               FocusColor2     =   16777088
+               FocusColorStyle =   1
+               FocusColorMargin=   2
+               FocusEffectAutoValue=   -20
+               ToolTipBodyText =   "XBUTTON 2"
+               ToolTipTitleText=   ""
+               ToolTipCentered =   -1  'True
+               ToolTipBackColor=   12648447
+               ToolTipExBackColor1=   12648447
+               ToolTipExHoverTime=   1000
+               ToolTipExPopupTime=   10000
+               ToolTipExPopupPos=   0
+               ToolTipExArrowWidth=   10
+               ToolTipExArrowHeight=   15
+               ToolTipExBorderRoundNum=   0
+               ToolTipExPopupPosWMargin=   5
+               ToolTipExPopupPosHMargin=   5
+               ToolTipExBackColor2=   16777215
+               ToolTipExBorderColor=   4210752
+               ToolTipExTitleText=   "Title"
+               ToolTipExIconAndTitleMargin=   5
+               ToolTipExTitleAlign=   2
+               BeginProperty ToolTipExTitleTextFont {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+                  Name            =   "Arial"
+                  Size            =   12
+                  Charset         =   0
+                  Weight          =   700
+                  Underline       =   0   'False
+                  Italic          =   0   'False
+                  Strikethrough   =   0   'False
+               EndProperty
+               ToolTipExTopMargin=   5
+               ToolTipExBottomMargin=   5
+               ToolTipExLeftMargin=   5
+               ToolTipExRightMargin=   5
+               ToolTipExBodyText=   "Body Text"
+               ToolTipExBodyTextColor=   4210752
+               BeginProperty ToolTipExBodyTextFont {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+                  Name            =   "Arial"
+                  Size            =   9
+                  Charset         =   0
+                  Weight          =   700
+                  Underline       =   0   'False
+                  Italic          =   0   'False
+                  Strikethrough   =   0   'False
+               EndProperty
+               ToolTipExTitleLineColor=   4210752
+               ToolTipExTitleAndLineMargin=   5
+               ToolTipExPostScriptText=   "PostScript"
+               ToolTipExIconAndPostScriptMargin=   5
+               ToolTipExPostScriptLineColor=   4210752
+               BeginProperty ToolTipExPostScriptTextFont {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+                  Name            =   "Arial"
+                  Size            =   9
+                  Charset         =   0
+                  Weight          =   700
+                  Underline       =   0   'False
+                  Italic          =   0   'False
+                  Strikethrough   =   0   'False
+               EndProperty
+               ToolTipExTitleLineShadow=   -1  'True
+               ToolTipExTitleLine=   -1  'True
+               ToolTipExTitleLineLeftMargin=   5
+               ToolTipExTitleLineRightMargin=   5
+               ToolTipExPostScriptLineShadow=   -1  'True
+               ToolTipExPostScriptLine=   -1  'True
+               ToolTipExPostScriptLineLeftMargin=   5
+               ToolTipExPostScriptLineRightMargin=   5
+               ToolTipExTitleAndBodyMargin=   5
+               ToolTipExBodyAndPostScriptMargin=   5
+               ToolTipExTitleTextBackColor=   16777215
+               ToolTipExTitleIconMaskColor=   13828096
+               ToolTipExTitleIconAndTextAlign=   2
+               ToolTipExTitleIconAndTextMargin=   5
+               ToolTipExPopupAutoPos=   -1  'True
+               ToolTipExPostScriptAndLineMargin=   5
+               ToolTipExPostScriptIconPos=   1
+               ToolTipExPostScriptIconAndTextMargin=   5
+               ToolTipExPostScriptIconAndTextAlign=   2
+               ToolTipExPostScriptIconMaskColor=   13828096
+               ToolTipExBodyTextBackColor=   16761024
+            End
             Begin FPSpreadADO.fpSpread spd_app 
                Height          =   930
                Left            =   9720
@@ -102,7 +253,7 @@ Begin VB.Form mkpoen05C
                MaxRows         =   2
                RetainSelBlock  =   0   'False
                ScrollBars      =   0
-               SpreadDesigner  =   "mkpoen05C.frx":0038
+               SpreadDesigner  =   "mkpoen05C.frx":020C
             End
             Begin VB.TextBox txt_seq 
                Appearance      =   0  'Æò¸é
@@ -557,9 +708,9 @@ Begin VB.Form mkpoen05C
                   EndProperty
                   Height          =   315
                   Index           =   1
-                  ItemData        =   "mkpoen05C.frx":03B5
+                  ItemData        =   "mkpoen05C.frx":0589
                   Left            =   2280
-                  List            =   "mkpoen05C.frx":03C2
+                  List            =   "mkpoen05C.frx":0596
                   TabIndex        =   18
                   Top             =   3120
                   Width           =   2010
@@ -808,7 +959,7 @@ Begin VB.Form mkpoen05C
                   MaxRows         =   6
                   RetainSelBlock  =   0   'False
                   ScrollBars      =   0
-                  SpreadDesigner  =   "mkpoen05C.frx":03DE
+                  SpreadDesigner  =   "mkpoen05C.frx":05B2
                End
                Begin Threed.SSPanel SSPanel13 
                   Height          =   330
@@ -1065,9 +1216,9 @@ Begin VB.Form mkpoen05C
                   EndProperty
                   Height          =   315
                   Index           =   2
-                  ItemData        =   "mkpoen05C.frx":091A
+                  ItemData        =   "mkpoen05C.frx":0AEE
                   Left            =   2280
-                  List            =   "mkpoen05C.frx":0927
+                  List            =   "mkpoen05C.frx":0AFB
                   TabIndex        =   31
                   Top             =   3120
                   Width           =   2010
@@ -1514,7 +1665,7 @@ Begin VB.Form mkpoen05C
                   MaxRows         =   6
                   RetainSelBlock  =   0   'False
                   ScrollBars      =   0
-                  SpreadDesigner  =   "mkpoen05C.frx":0943
+                  SpreadDesigner  =   "mkpoen05C.frx":0B17
                End
                Begin VB.Label Label4 
                   Caption         =   "-"
@@ -1584,9 +1735,9 @@ Begin VB.Form mkpoen05C
                   EndProperty
                   Height          =   315
                   Index           =   3
-                  ItemData        =   "mkpoen05C.frx":0E7F
+                  ItemData        =   "mkpoen05C.frx":1053
                   Left            =   2280
-                  List            =   "mkpoen05C.frx":0E8C
+                  List            =   "mkpoen05C.frx":1060
                   TabIndex        =   44
                   Top             =   3360
                   Width           =   2010
@@ -2045,7 +2196,7 @@ Begin VB.Form mkpoen05C
                   MaxRows         =   6
                   RetainSelBlock  =   0   'False
                   ScrollBars      =   0
-                  SpreadDesigner  =   "mkpoen05C.frx":0EA8
+                  SpreadDesigner  =   "mkpoen05C.frx":107C
                End
                Begin VB.Label Label7 
                   Caption         =   "-"
