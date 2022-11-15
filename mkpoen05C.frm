@@ -3621,7 +3621,9 @@ err_rtn:
 End Sub
 
 Private Sub btn_view1_Click()
-
+    
+    'read
+    
     On Error GoTo err_rtn
 
     Dim lno As Integer
